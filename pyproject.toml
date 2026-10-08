@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "slop-linter"
+version = "0.2.0"
+description = "A staged Python function linter powered by OpenRouter Decisions"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/carl-stone/slop-linter"
+
+[project.scripts]
+slop-linter = "slop_linter:main"
+slop-linter-eval = "evals.cli:main"
+
+[project.optional-dependencies]
+eval = ["dspy[optuna]==3.4.0"]
+
+[tool.setuptools]
+packages = ["slop_linter", "evals"]
+
+[tool.setuptools.package-data]
+evals = ["data/*/*/*.json", "data/*/*/*.jsonl", "data/*/*/*.md"]

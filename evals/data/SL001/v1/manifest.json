@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "rule": "SL001",
+  "version": "SL001-synthetic-v1",
+  "label_status": "assistant-authored/provisional",
+  "group_policy": "Keep related variants together; do not reuse a group across splits.",
+  "files": {
+    "train": {
+      "count": 8,
+      "sha256": "eac6f5cfe8ddfb0e074082e7cddcf8578ecdb4b58767eda01172bea3ff52515f"
+    },
+    "dev": {
+      "count": 8,
+      "sha256": "37d4f8d3d23a9071930716e33da64639251eb94194abcf5e5c9700a6c7246354"
+    },
+    "test": {
+      "count": 8,
+      "sha256": "e4b8a82b116d7e135320bf4e149f37140bd877f654d0a0466a123f94708f1764"
+    },
+    "review": {
+      "count": 4,
+      "sha256": "19efaec83e7c9aa3429ec7e9ea8d358ba39e6b6c13be0548617541f17970e60b"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "rule": "SL001",
+  "version": "SL001-digital_readiness-v1",
+  "files": {
+    "train": {
+      "count": 22,
+      "sha256": "4f0e900be20012f59a1894b191c89af4ccd2b91ac24a7358ab64dff1fc8b8214"
+    },
+    "dev": {
+      "count": 8,
+      "sha256": "43d3f28d33c5f6b44755a33b25abcb12e3ae9b9f9acb9746f03182c2b39e874a"
+    },
+    "test": {
+      "count": 7,
+      "sha256": "03d81c39e3fb86c7ef25a9f6461e6d53b8fc640f82b5a6fc9a2f065e3f55676c"
+    },
+    "review": {
+      "count": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

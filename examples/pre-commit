@@ -1,0 +1,6 @@
+#!/usr/bin/env python3
+"""Optional Git hook template; requires slop-linter in this Python environment."""
+
+from slop_linter import main
+
+raise SystemExit(main(["check", "--staged"]))

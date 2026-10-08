@@ -1,0 +1,8 @@
+- id: slop-linter
+  name: slop-linter
+  description: Inspect every function in staged Python files with OpenRouter Decisions
+  entry: slop-linter check --staged
+  language: python
+  pass_filenames: false
+  always_run: true
+  stages: [pre-commit]
